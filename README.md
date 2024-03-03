@@ -63,11 +63,10 @@ Enter a number
 
 | Item                                                          | Points  |
 |---------------------------------------------------------------|:-------:|
-| Program works according to instructions                       | `20`    |
-| Code compliant with EditorConfig rules                        | `20`    |
-| Code is neat and variable names are logical                   | `20`    |
-| Odd version of diamond rendered according to video rendering  | `20`    |
-| Even version of diamond rendered according to video rendering | `20`    |
+| Code compliant with EditorConfig rules                        | `25`    |
+| Code is neat and variable names are logical                   | `25`    |
+| Odd version of diamond rendered according to video rendering  | `25`    |
+| Even version of diamond rendered according to video rendering | `25`    |
 
 ---
 
