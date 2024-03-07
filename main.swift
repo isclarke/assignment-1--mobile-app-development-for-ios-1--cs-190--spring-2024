@@ -7,5 +7,6 @@ for i in 1...diamondSize {
     print(" ",terminator: " ")
   }
 for _ in 1...(2 * diamondSize - 1) {
-
+  print("*", terminator: " ")
 }
+print(" ")
