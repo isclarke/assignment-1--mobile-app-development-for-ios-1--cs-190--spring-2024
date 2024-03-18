@@ -7,3 +7,8 @@ for _ in 1...diamondSize{
   print(" ", terminator: "*")
 }
 }
+else {
+for _ in 1...diamondSize{
+  print(terminator: "*")
+}
+}
