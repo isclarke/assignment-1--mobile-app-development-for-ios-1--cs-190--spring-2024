@@ -1,6 +1,6 @@
 print("Enter the size of your diamond")
 let diamondSize = Int(readLine()!)!
-let evennumber = diamondSize % 2 == 0
+var evennumber = diamondSize % 2 == 0
 for i in 1...diamondSize {
   for _ in 0..<(diamondSize - i) {
   }
