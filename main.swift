@@ -8,7 +8,8 @@ for _ in 1...diamondSize{
 }
 }
 else {
-for _ in 1...diamondSize{
-  print(terminator: "*")
-}
+  for i in 0..<diamondSize / 2 + 1 {
+    let spaceCount : Int
+    let starCount : Int
+  }
 }
