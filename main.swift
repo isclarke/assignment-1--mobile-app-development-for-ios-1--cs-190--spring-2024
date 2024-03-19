@@ -11,5 +11,7 @@ else {
   for i in 0..<diamondSize / 2 + 1 {
     let spaceCount : Int
     let starCount : Int
+    spaceCount = diamondSize / 2 - i
+    starsCount = 2 * i + 1
   }
 }
