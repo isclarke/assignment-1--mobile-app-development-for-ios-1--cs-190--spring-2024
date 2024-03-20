@@ -21,4 +21,17 @@ else {
     }
     print("")
   }
+  for i in 0..<diamondSize / 2 {
+    let spaceCount : Int
+    let starCount: Int
+    spaceCount = i + 1
+    starCount = diamondSize - 2 * (i + 1)
+  for _ in 0..<spaceCount {
+    print(" ", terminator: "")
+  }
+  for _ in 0..<starCount{
+    print("*", terminator: "")
+  }
+  }
+
 }
