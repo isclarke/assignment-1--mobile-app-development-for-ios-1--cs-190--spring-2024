@@ -32,6 +32,6 @@ else {
   for _ in 0..<starCount{
     print("*", terminator: "")
   }
+  print("")
   }
-
 }
