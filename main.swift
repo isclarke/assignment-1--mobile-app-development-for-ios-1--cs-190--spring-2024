@@ -3,7 +3,21 @@ if let diamondSize = Int(readLine()!) {
 let evennumber = diamondSize % 2 == 0
 //even star
 if evennumber {
-  for i in 0..<diamondSize / 2 + 1   {
+  //point of even pyramid
+  for i in 0..<diamondSize - diamondSize + 1 {
+    let spaceCount : Int
+    let pointStar : Int
+    spaceCount = diamondSize / 2 - i
+    pointStar = 1
+    for _ in 1..<spaceCount {
+        print(" ",terminator: " ")
+    }
+    for _ in 0..<pointStar {
+        print("  ",terminator: "*")
+    }
+    print (" ")
+}
+  for i in 1..<diamondSize / 2 + 1   {
     let spaceCount : Int
     let starCount : Int
     spaceCount = diamondSize / 2 - i
