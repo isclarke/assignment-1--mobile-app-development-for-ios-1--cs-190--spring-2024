@@ -1,7 +1,7 @@
 print("Enter the size of your diamond")
 if let diamondSize = Int(readLine()!) {
 let evennumber = diamondSize % 2 == 0
-
+//even star
 if evennumber {
   for i in 0..<diamondSize / 2 + 1   {
     let spaceCount : Int
@@ -30,7 +30,9 @@ if evennumber {
   print("")
   }
 }
+//odd star
 else {
+  //top of odd star
   for i in 0..<diamondSize / 2 + 1 {
     let spaceCount : Int
     let starCount : Int
@@ -44,6 +46,7 @@ else {
     }
     print("")
   }
+  //bottom of odd star
   for i in 0..<diamondSize / 2 {
     let spaceCount : Int
     let starCount: Int
@@ -59,6 +62,7 @@ else {
   }
 }
 }
+//else statement for when user inputs anything other than positive integer
 else {
   print("not a number!")
 }
