@@ -17,6 +17,7 @@ if evennumber {
     }
     print (" ")
 }
+//after point to middle of star
   for i in 1..<diamondSize / 2 + 1   {
     let spaceCount : Int
     let starCount : Int
@@ -30,7 +31,8 @@ if evennumber {
   }
     print("")
 }
-  for i in 0..<diamondSize / 2{
+//after middle to point
+  for i in 0..<diamondSize / 2 - 1{
     let spaceCount : Int
     let starCount : Int
     spaceCount = i + 1
@@ -43,6 +45,20 @@ if evennumber {
   }
   print("")
   }
+  //bottom point of pyramid
+  for i in 0..<diamondSize - diamondSize + 1 {
+    let spaceCount : Int
+    let topStar : Int
+    spaceCount = diamondSize / 2 - i
+    topStar = 1
+    for _ in 1..<spaceCount {
+        print(" ",terminator: " ")
+    }
+    for _ in 0..<topStar {
+        print("  ",terminator: "*")
+    }
+    print ("")
+    }
 }
 //odd star
 else {
