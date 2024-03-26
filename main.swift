@@ -45,7 +45,7 @@ if evennumber {
   }
   print("")
   }
-//bottom point of pyramid
+//bottom point of even pyramid
   for i in 0..<diamondSize - diamondSize + 1 {
     let spaceCount : Int
     let topStar : Int
